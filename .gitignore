@@ -1,9 +1,5 @@
 /node_modules
-/build
-.vagrant
-/public/card_images
 .idea
 .DS_Store
-in
 npm-debug.log
 /public/images/.cache
