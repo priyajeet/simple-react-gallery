@@ -11,8 +11,7 @@
     "start-dev": "node lib/server-development",
     "start": "node lib/server-production"
   },
-  "keywords": [
-  ],
+  "keywords": [],
   "author": "Tony Casparro",
   "license": "N/A",
   "dependencies": {
@@ -33,11 +32,13 @@
     "mysql": "^2.6.1",
     "node-mysql": "^0.4.2",
     "null-loader": "^0.1.0",
+    "quickthumb": "0.0.11",
     "react": "^0.13.1",
     "react-hot-loader": "^1.2.4",
     "react-pick": "^0.5.0",
     "react-proxy-loader": "^0.3.4",
     "react-router": "^0.13.2",
+    "sqlite3": "^3.0.5",
     "style-loader": "^0.8.2",
     "superagent": "^0.21.0",
     "url-loader": "^0.5.5",
