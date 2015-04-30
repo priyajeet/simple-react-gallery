@@ -1,0 +1,55 @@
+body {
+	background: white;
+    color: black;
+    font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.hideme {
+    display: none;
+}
+
+#home {
+    padding: 20px;
+}
+
+.image {
+    float: left;
+    margin: 0 20px 20px 0;
+    position: relative;
+
+    button {
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        padding: 4px 8px;
+        background-color: rgba(213, 213, 213, 0.50);
+//        display: none;
+    }
+
+//    &:hover {
+//        button {
+//            display: block;
+//        }
+//    }
+
+    .captionContainer {
+        text-align: center;
+        height: 30px;
+
+        &.missing {
+            color: #a2a2a2;
+        }
+
+        div {
+            padding: 3px;
+        }
+
+        input {
+            font-size: 15px;
+            text-align: center;
+            border: 1px solid #cccccc;
+        }
+    }
+}
